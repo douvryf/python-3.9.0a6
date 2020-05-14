@@ -1,0 +1,20 @@
+--- pyconfig.h  Thu May 14 10:40:09 2020
++++ pyconfig_new.h      Thu May 14 10:42:00 2020
+@@ -597,7 +597,7 @@
+ /* #undef HAVE_LIBIEEE */
+
+ /* Define to 1 if you have the <libintl.h> header file. */
+-#define HAVE_LIBINTL_H 1
++/* #undef HAVE_LIBINTL_H  */
+
+ /* Define if you have the readline library (-lreadline). */
+ #define HAVE_LIBREADLINE 1
+@@ -1532,7 +1532,7 @@
+ /* #undef WITH_DYLD */
+
+ /* Define to 1 if libintl is needed for locale functions. */
+-#define WITH_LIBINTL 1
++/* #undef WITH_LIBINTL */
+
+ /* Define if you want to produce an OpenStep/Rhapsody framework (shared
+    library plus accessory files). */
